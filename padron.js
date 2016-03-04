@@ -5,11 +5,11 @@ var restify = require('restify'),
 connection = mysql.createConnection({
 	host : 'localhost',
 	user : 'desarrollo',
-	password : 'K4t4r1n4',
+	password : '',
 	database: 'sup'
 });
 
-var ip_addr = '132.247.70.41';
+var ip_addr = '132.247.70.141';
 var port    =  '3000';
 
 var server = restify.createServer({
